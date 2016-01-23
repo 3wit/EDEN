@@ -1,0 +1,21 @@
+{
+  "name": "eden",
+  "version": "1.0.0",
+  "description": "Track your mood and feel better",
+  "main": "index.js",
+  "dependencies": {
+  	"express": "*",
+  	"braintree": "*",
+  	"pg": "*",
+    "express-formidable": "*",
+    "imgur": "*",
+    "unirest": "*",
+    "concat-stream": "*"
+  },
+  "scripts": {
+	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
